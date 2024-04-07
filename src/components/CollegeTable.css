@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 6%;
+}
+
+th {
+  padding: 1%;
+}
+td {
+  border: 1px solid rgb(162, 146, 146);
+  padding: 2%;
+  font: bold;
+}
+
+th {
+  background-color: #76c7bd;
+  color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9a2;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.search {
+  height: 3vh;
+}
+.dropdown {
+  height: 3.75vh;
+}
